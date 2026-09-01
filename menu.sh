@@ -47,7 +47,7 @@ show_header() {
 
   echo -e "${CYAN}$UI_BOX_TOP${NC}"
   ui_line_center "${WHITE}${BOLD}CHANELOG VPN TUNNEL MANAGER${NC}"
-  ui_line_center "${DIM}${PURPLE}pro edition${NC}"
+  ui_line_center "${DIM}${PURPLE}BY CHANEL-OG${NC}"
   echo -e "${CYAN}$UI_BOX_MID${NC}"
   ui_kv "Domain"        "$domain"
   ui_kv "IP VPS"        "$ip"
