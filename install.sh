@@ -7,7 +7,7 @@
 # ============================================================
 
 REPO="https://raw.githubusercontent.com/chanelog/bin/main"
-RAW="https://raw.githubusercontent.com/chanelog/xray/main"
+RAW="https://raw.githubusercontent.com/oghc93/All-Tun/main"
 SCRIPT_DIR="/etc/vpn-script"
 BIN_DIR="/usr/local/bin"
 
