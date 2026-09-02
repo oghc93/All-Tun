@@ -39,7 +39,7 @@ show_header() {
   local pro_badge="${DIM}belum di-setup${NC}"
   if [[ -f "$PRO_CONFIG" ]]; then
     if [[ -n "$TELEGRAM_BOT_TOKEN" ]]; then
-      pro_badge="${GREEN}aktif$${NC}"
+      pro_badge="${GREEN}aktif${NC}"
     else
       pro_badge="${GREEN}aktif${NC}"
     fi
@@ -64,7 +64,7 @@ show_header() {
   ui_2col "$(ui_dot $haproxy_on) HAProxy" ""
   echo -e "${CYAN}$UI_BOX_MID${NC}"
   ui_kv "Multiplex 443" "$mux_badge"
-  ui_kv "Fitur Pro"     "$pro_badge"
+  ui_kv "Fitur"     "$pro_badge"
   echo -e "${CYAN}$UI_BOX_MID${NC}"
   ui_line "${WHITE}${BOLD}${total_akun}${NC}${WHITE} akun aktif${NC}"
   ui_line "${DIM}VMess ${vmess_count} · VLess ${vless_count} · Trojan ${trojan_count} · SS ${ss_count} · SSH ${ssh_count}${NC}"
