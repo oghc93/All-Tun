@@ -31,10 +31,10 @@ vmess_header() {
 vmess_menu() {
   vmess_header
   echo -e "${CYAN}$UI_BOX_TOP${NC}"
-  ui_2col "$(ui_menu_num 1 'Buat Akun' "$GREEN")"    "$(ui_menu_num 2 'Info Akun' "$GREEN")"
-  ui_2col "$(ui_menu_num 3 'Detail Akun' "$GREEN")"  "$(ui_menu_num 4 'Hapus Akun' "$RED")"
-  ui_2col "$(ui_menu_num 5 'Perpanjang Akun')"        "$(ui_menu_num 6 'List Semua Akun' "$CYAN")"
-  ui_2col "$(ui_menu_num 7 'Edit Limit & Kuota')"    "$(ui_menu_num 0 'Kembali' "$DIM")"
+  ui_2col "$(ui_menu_num 01 'Buat Akun' "$GREEN")"    "$(ui_menu_num 02 'Info Akun' "$GREEN")"
+  ui_2col "$(ui_menu_num 03 'Detail Akun' "$GREEN")"  "$(ui_menu_num 04 'Hapus Akun' "$RED")"
+  ui_2col "$(ui_menu_num 05 'Perpanjang Akun')"        "$(ui_menu_num 06 'List Semua Akun' "$CYAN")"
+  ui_2col "$(ui_menu_num 07 'Edit Limit & Kuota')"    "$(ui_menu_num 0 'Kembali' "$DIM")"
   echo -e "${CYAN}$UI_BOX_BOT${NC}"
   echo ""
   echo -ne "  ${WHITE}${BOLD}Pilih [0-8]${NC} ${DIM}›${NC} "
