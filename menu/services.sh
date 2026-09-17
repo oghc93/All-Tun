@@ -40,9 +40,9 @@ services_header() {
 services_menu() {
   services_header
   echo -e "${CYAN}$UI_BOX_TOP${NC}"
-  ui_2col "$(ui_menu_num 1 'Start Layanan' "$GREEN")"     "$(ui_menu_num 2 'Stop Layanan' "$RED")"
-  ui_2col "$(ui_menu_num 3 'Restart Layanan')"             "$(ui_menu_num 4 'Enable Auto-Start')"
-  ui_2col "$(ui_menu_num 5 'Disable Auto-Start')"          ""
+  ui_2col "$(ui_menu_num 01 'Start Layanan' "$GREEN")"     "$(ui_menu_num 02 'Stop Layanan' "$RED")"
+  ui_2col "$(ui_menu_num 03 'Restart Layanan')"             "$(ui_menu_num 04 'Enable Auto-Start')"
+  ui_2col "$(ui_menu_num 05 'Disable Auto-Start')"          ""
   echo -e "${CYAN}$UI_BOX_MID${NC}"
   ui_line "$(ui_menu_num 0 'Kembali ke Menu Utama' "$DIM")"
   echo -e "${CYAN}$UI_BOX_BOT${NC}"
