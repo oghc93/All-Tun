@@ -66,10 +66,10 @@ sshws_menu() {
   fi
   sshws_header
   echo -e "${CYAN}$UI_BOX_TOP${NC}"
-  ui_2col "$(ui_menu_num 1 'Buat Akun' "$GREEN")"      "$(ui_menu_num 2 'Info Akun' "$GREEN")"
-  ui_2col "$(ui_menu_num 3 'Detail Koneksi' "$GREEN")" "$(ui_menu_num 4 'Hapus Akun' "$RED")"
-  ui_2col "$(ui_menu_num 5 'Perpanjang Akun')"          "$(ui_menu_num 6 'List Semua Akun' "$CYAN")"
-  ui_2col "$(ui_menu_num 7 'Diagnostic' "$PURPLE")"     "$(ui_menu_num 8 'Edit Limit & Kuota')"
+  ui_2col "$(ui_menu_num 01 'Buat Akun' "$GREEN")"      "$(ui_menu_num 02 'Info Akun' "$GREEN")"
+  ui_2col "$(ui_menu_num 03 'Detail Koneksi' "$GREEN")" "$(ui_menu_num 04 'Hapus Akun' "$RED")"
+  ui_2col "$(ui_menu_num 05 'Perpanjang Akun')"          "$(ui_menu_num 06 'List Semua Akun' "$CYAN")"
+  ui_2col "$(ui_menu_num 07 'Diagnostic' "$PURPLE")"     "$(ui_menu_num 08 'Edit Limit & Kuota')"
   echo -e "${CYAN}$UI_BOX_MID${NC}"
   ui_line "$(ui_menu_num 0 'Kembali ke Menu Utama' "$DIM")"
   echo -e "${CYAN}$UI_BOX_BOT${NC}"
